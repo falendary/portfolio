@@ -24,4 +24,8 @@
     .mobilemenu-button {
         display: none;
     }
+
+    .projects-list li {
+        margin: 0;
+    }
 }

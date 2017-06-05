@@ -189,6 +189,7 @@ ol {
 
 .projects-list li {
     position: relative;
+    margin: 20px 0;
 }
 
 .projects-list li a {
