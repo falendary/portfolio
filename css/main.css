@@ -68,7 +68,7 @@ body {
     margin-bottom: 6px;
 }
 
-.sidenav ul li a {
+.sidenav ul li a, .sidenav ul li b {
     color: #fff;
     padding-left: 20px;
     display: block;
