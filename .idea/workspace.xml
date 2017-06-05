@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cc275e77-a582-4fd6-ac58-91f4ee9e0f4d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/sidenav.js" afterPath="$PROJECT_DIR$/js/sidenav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,21 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5">
-              <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="192" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.45053002">
+              <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidenav.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sidenav.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/sidenav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8277027">
-              <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -102,9 +102,9 @@
         <option value="$PROJECT_DIR$/about/index.html" />
         <option value="$PROJECT_DIR$/projects/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/desktop.css" />
         <option value="$PROJECT_DIR$/js/sidenav.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -830,12 +830,12 @@
       <workItem from="1496150200903" duration="8070000" />
       <workItem from="1496236544680" duration="8000" />
       <workItem from="1496659331824" duration="7416000" />
-      <workItem from="1496666843838" duration="758000" />
+      <workItem from="1496666843838" duration="924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21303000" />
+    <option name="totallyTimeSpent" value="21469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1672" y="-8" width="1936" height="1056" extended-state="6" />
@@ -999,14 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="192" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/desktop.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.653847">
@@ -1033,8 +1025,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/sidenav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8277027">
-          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45053002">
+          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
           <folding />
         </state>
       </provider>
