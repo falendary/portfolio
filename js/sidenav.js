@@ -1,4 +1,4 @@
-window.onload = function () {
+(function () {
 
     var sidenavIsOpen = false;
 
@@ -34,4 +34,4 @@ window.onload = function () {
     document.querySelector('.mobilemenu-button').addEventListener('click', handler);
     document.querySelector('.mobilemenu-button').addEventListener('touchstart', handler);
 
-};
+}());
