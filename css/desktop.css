@@ -1,0 +1,27 @@
+@media screen and (min-width: 600px) {
+
+    .fixed-container {
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .main-profile__header {
+        display: flex;
+        flex-direction: row;
+        padding-top: 0;
+    }
+
+    .main-profile__header__photo {
+        margin-right: 4rem;
+    }
+
+    .main-profile__header__description .main-profile__header__subtitle {
+        text-align: left;
+    }
+
+    .mobilemenu-button {
+        display: none;
+    }
+}

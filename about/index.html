@@ -3,20 +3,21 @@
     <title>Sergey Zhitenev</title>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/desktop.css">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 </head>
-<body>
+<body class="projects-page">
+
 
 <div class="sidenav">
 
     <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/about">About</a></li>
+        <li><a href="../">Home</a></li>
+        <li><a href="../projects">Projects</a></li>
+        <li><a href="/">About</a></li>
     </ul>
 
 </div>
@@ -24,43 +25,28 @@
 <div class="content">
 
     <header>
-        <a href="" class="mobilemenu-button"><i class="fa fa-navicon"></i></a>
+        <a href="#" class="mobilemenu-button"><i class="fa fa-navicon"></i></a>
     </header>
-
-    <div class="fixed-container">
+    <div class="container">
         <div class="main-profile">
 
             <div class="main-profile__header">
-                <div class="main-profile__header__photo">
-                    <img src="img/sergey.png">
-                </div>
+
                 <div class="main-profile__header__description">
-                    <h3 class="main-profile__header__title">Sergey Zhitenev</h3>
-                    <p class="main-profile__header__subtitle">Software Developer</p>
+                    <h3 class="main-profile__header__title">About me</h3>
                 </div>
             </div>
 
             <div class="main-profile__body">
 
-                <p>
-                    Hello, I am a web developer from Moscow, Russia. I work primarily with <a
-                        href="https://angular.io/" class="link" target="_blank">Angular</a> and <a class="link"
-                                                                                                   href="http://www.yiiframework.com/"
-                                                                                                   target="_blank">Yii2</a>.
-                </p>
+                <p>Hi, my name is Sergey</p>
 
-                <p>
-                    Have a look through my <a class="link" href="/projects" target="_blank">projects</a>. Need help with
-                    an
-                    upcoming
-                    project or
-                    application? Learn a bit more <a href="/about" class="link" target="_blank">about</a> me and then
-                    contact me.
-                </p>
+                <p>I'm a developer, so I know how to create websites to run across devices using the latest technologies available.</p>
 
             </div>
 
-            <div>
+            <div class="main-profile__footer-projects-footer">
+
                 <ul class="icons-list">
                     <li class="icons-list__item">
                         <a href="mailto:zhitenev36@gmail.com" rel="nofollow" target="_blank" title="Send me an email">
@@ -109,7 +95,21 @@
     </div>
 </div>
 
-<script type="text/javascript" src="js/sidenav.js"></script>
+<script>
+
+    var projects = document.querySelectorAll('.main-profile__body li');
+    var counter = 0;
+
+    for (var i = projects.length - 1; i >= 0; i = i - 1) {
+
+        projects[counter].innerHTML = (i + 1) + '.' + projects[counter].innerHTML;
+
+        counter = counter + 1;
+    }
+
+</script>
+
+<script type="text/javascript" src="../js/sidenav.js"></script>
 
 </body>
 </html>

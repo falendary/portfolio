@@ -21,8 +21,61 @@ a {
     text-decoration: none;
 }
 
+body {
+    padding: 16px;
+    margin: 0;
+}
+
 .main-profile {
     width: 600px;
+}
+
+.content {
+    transition: margin-left .5s;
+    width: 100%;
+}
+
+.mobilemenu-button {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #242424;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+
+.sidenav ul {
+    width: 100%;
+    padding-left: 40px;
+    list-style-type: none;
+}
+
+.sidenav ul li {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 6px;
+}
+
+.sidenav ul li a {
+    color: #fff;
+    padding-left: 20px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    padding-bottom: 6px;
 }
 
 .main-profile__header {
@@ -30,12 +83,14 @@ a {
     margin-bottom: 30px;
     border-bottom: 2px solid #e7ebee;
 
+    padding-top: 36px;
+
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-profile__header__photo {
-    margin-right: 4rem;
     border-radius: 50%;
 }
 
@@ -56,6 +111,7 @@ a {
     line-height: 22px;
     margin-bottom: 17px;
     font-weight: 300;
+    text-align: center;
     margin-top: 0;
     color: #878787;
 }
@@ -63,8 +119,6 @@ a {
 .fixed-container {
     height: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .container {
@@ -83,8 +137,8 @@ a {
 
 .icons-list__item {
     flex: 0 0 33.33%;
-    font-size: 19px;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 16px;
     list-style: none;
     margin: 0 0 25px;
     padding: 0;
@@ -92,6 +146,7 @@ a {
 
 .icons-list__item a {
     color: #373737;
+    line-height: 20px;
 }
 
 .icons-list__item a i {
