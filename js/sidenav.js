@@ -1,4 +1,4 @@
-(function () {
+$(document).ready(function () {
 
     var sidenavIsOpen = false;
 
@@ -32,7 +32,6 @@
 
     }
 
-    document.querySelector('.mobilemenu-button').addEventListener('click', handler);
-    document.querySelector('.mobilemenu-button').addEventListener('touchstart', handler);
+    $('.mobilemenu-button').on('click', handler);
 
-}());
+});
