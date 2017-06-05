@@ -24,11 +24,11 @@ $(document).ready(function () {
         document.querySelector('body').style.height = 'initial';
     }
 
-    function handler() {
+    function handler(event) {
 
         sidenavIsOpen = !sidenavIsOpen;
 
-        sidenavIsOpen ? openNav() : closeNav();
+        sidenavIsOpen ? openNav(event) : closeNav(event);
 
     }
 
